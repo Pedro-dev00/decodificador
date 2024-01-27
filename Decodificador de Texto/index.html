@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header>Mensagens Secretas</header>
+    <main>
+        <section class="textoOriginal">
+           <textarea name="decodificador" id="originalTextarea" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+        </section>
+        <div class="layout">
+            <p class="aviso">Apenas letras minúsculas e sem acento.</p>
+            <button onclick="criptografar()">criptografar</button>
+            <button onclick="decriptografar()">descriptografar</button>
+            <button onclick="copiar() " class="copia">copiar</button>
+        </div>
+        <section class="resultadoTexto">
+            <textarea id="resultadoTextarea" placeholder="resultado"></textarea>
+          </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Pedro Henrique</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

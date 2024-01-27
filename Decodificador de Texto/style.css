@@ -1,0 +1,138 @@
+/* Reset de estilos padrão */
+body,
+h1,
+h2,
+h3,
+p,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 25px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 24px;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  width: 100%;
+}
+
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  resize: none;
+  font-size: 16px;
+}
+
+.aviso {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #d9534f;
+}
+
+/* Estilo dos botões */
+button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button.copia {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+button.copia:hover {
+  background-color: #4cae4c;
+}
+
+button.copia:active {
+  background-color: #ae8f4c;
+}
+
+
+.menuLateral {
+  padding: 20px;
+  background-color: #2c3e50;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.menuLateral h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.menuLateral p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.menuLateral h2 {
+  text-align: center;
+}
+
+
+.menuLateral+header {
+  margin-top: 20px;
+}
+
+#rodape {
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #3498db;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+
+
+a {
+  color: #fff;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+a:hover {
+  color: #ffc107;
+}
+
+aside {
+  margin-bottom: 20%;
+}
